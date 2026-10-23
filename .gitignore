@@ -1,0 +1,28 @@
+# Node
+node_modules/
+
+# Hardhat
+**/artifacts/
+**/cache/
+**/coverage/
+
+# Environment / secrets
+.env
+.env.*
+**/.env
+**/.env.*
+secrets/
+*.key
+*.pem
+
+# Hardhat keystore
+**/keystore/
+
+# Logs
+*.log
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
